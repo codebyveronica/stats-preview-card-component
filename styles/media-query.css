@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 800px;
+        height: 320px;
+    }
+
+    .image {
+        background-image: url(../images/image-header-desktop.jpg);
+        float: right;
+        width: 400px;
+        height: 320px;
+    }
+
+    article {
+        text-align: left;
+        width: 400px;
+        padding: 45px 60px;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+
+    ul {
+        columns: 3;
+        margin-top: 50px;
+    }
+}
