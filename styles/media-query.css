@@ -32,4 +32,12 @@
         columns: 3;
         margin-top: 50px;
     }
+
+    li {
+        font-size: 10px;
+    }
+
+    .data {
+        font-size: 18px;
+    }
 }
